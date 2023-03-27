@@ -1,0 +1,1 @@
+when running the program, the first line shows some X characters. Tested a few iputs to find that number of Xs correspond with # of input chars, and some turn to O. Wrote a program that brute forces characters until the program outputs O and repeatedly add characters until the flag is shown.
