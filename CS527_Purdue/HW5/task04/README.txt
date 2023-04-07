@@ -1,0 +1,1 @@
+The goal is to trigger SIGFPE (math error), which will lead to handle_signal that reads the flag. However, since the function already handles division by 0 error, I have to find another way. By setting a to -2147483648, the smallest value of int and b to -1, dividing the 2 will yield 2147483648, which is an int overflow and will trigger SIGFPE.

@@ -1,0 +1,1 @@
+Although NX is enabled, the program can still be vulnerable to ROP attacks. Using Ropper and ROPGadget, I managed to find segments with ret statements that push the right values to the right registers and execute setreuid and enter the shell. Please see details in exploit.py
